@@ -1,0 +1,21 @@
+# Virtual environment
+.venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Archive files
+*.zip
+*.rar
+*.7z
+
+# OS
+.DS_Store
+Thumbs.db

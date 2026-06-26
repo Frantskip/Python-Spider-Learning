@@ -1,0 +1,12 @@
+import requests
+url = 'http://www.baidu.com/s?'
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36'
+}
+data = {
+    'wd': '北京'
+}
+
+response = requests.get(url=url, params=data, headers=headers)
+content = response.text
+print(content)
